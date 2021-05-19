@@ -13,8 +13,8 @@ button.forEach(function(btn, index){
                 if(index !== text_index){
                     if(item.classList.contains('show')){
                         item.classList.remove('show');
-                        item.previousElementSibling.lastElementChild.firstElementChild.classList.remove('unshow');
-                        item.previousElementSibling.lastElementChild.lastElementChild.classList.remove('show');
+                        question[text_index].lastElementChild.firstElementChild.classList.remove('unshow');
+                        question[text_index].lastElementChild.lastElementChild.classList.remove('show');
                     }
                 }
                 else if(index === text_index){
