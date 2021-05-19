@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #F1F5F8;
+    line-height: 1.5rem;
+}
+
+.container{
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+main h1{
+    margin: 1rem 0;
+    text-align: center;
+    color: #C59D5F;
+}
+
+.item{
+    background-color: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.205);
+    margin: 2rem 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.question-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    letter-spacing: 0.3rem;
+}
+
+.text-section p{
+    margin-top: 1rem;
+    color: #617D98;
+}
+
+hr{
+    /* border: 1px solid #c9c8c879; */
+    border: none;
+    border-top: 1px solid #c9c8c8;
+    background-color: #c9c8c8;
+}
+
+button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+
+button:hover{
+    transform:rotate(90deg);
+    transition: all 0.4s linear;
+}
+
+i{
+    color: #C59D5F;
+}
+
+.minus, .text-section, .unshow{
+    display: none;
+}
+
+.show{
+    display: block;
+}
